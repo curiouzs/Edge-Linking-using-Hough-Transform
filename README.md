@@ -7,19 +7,21 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+
+Import all the necessary modules for the program.
 
 ### Step2:
-<br>
+Load a image using imread() from cv2 module.
 
 ### Step3:
-<br>
+Convert the image to grayscale.
 
 ### Step4:
-<br>
+Using Canny operator from cv2,detect the edges of the image.
 
 ### Step5:
-<br>
+Using the HoughLinesP(),detect line co-ordinates for every points in the images.Using For loop,draw the lines on the found co-ordinates.Display the image.
+
 
 
 ## Program:
